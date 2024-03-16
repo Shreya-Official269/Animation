@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/teal_700"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:textSize="34sp"
+        android:hint="Welcome"
+        android:layout_centerInParent="true"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Scale"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:textColorHint="@color/black"
+        android:hint="Scale"/>
+
+    <Button
+        android:id="@+id/Rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Scale"
+        android:layout_marginBottom="-70dp"
+        android:hint="Rotate"
+        android:textColorHint="@color/black"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Scale"
+        android:layout_marginBottom="-142dp"
+        android:hint="Translate"
+        android:textColorHint="@color/black"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Alpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Scale"
+        android:layout_marginBottom="-212dp"
+        android:hint="Alpha"
+        android:textColorHint="@color/black"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
